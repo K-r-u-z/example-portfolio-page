@@ -17,6 +17,10 @@ body{
 }
 
 
+#navbar{
+    position: fixed;
+}
+
 .nav-bar{
     background-color: var(--secondary-color);
     width: 100%;
@@ -25,7 +29,6 @@ body{
     justify-content: flex-end;
     align-items: center;
     padding: 1.3rem;
-    position:  fixed;
 }
 
 .nav-bar li{
@@ -213,7 +216,7 @@ img{
 
 .contact-links a:hover{
     position: relative;
-    transition: 0.2s ease-in-out;
+    transition: 0.1s ease-in-out;
     color: var(--secondary-color);
     padding-top: 20px;
 }
@@ -234,4 +237,11 @@ img{
     color: var(--text-color);
     font-size: 1.1rem;
     padding: 2rem;
+}
+
+@media screen and (max-width: 500px ) {
+    .contact-links{
+        gap: 25px;
+    }
+    
 }
