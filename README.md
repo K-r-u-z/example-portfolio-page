@@ -1,0 +1,1 @@
+This sample portfolio website demonstrates more fundamental html and css practices. Upon completing this project, I have received the Responsive Web Design Certification.
